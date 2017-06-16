@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <!-- General app colors -->
+    <!-- ************************** -->
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Colors for Tab Layout -->
+    <!-- ************************** -->
+
+    <!-- Tab Text Color -->
+    <color name="tabLayoutTextColor">#A8A19E</color>
+    <!-- Tab Indicator Color -->
+    <color name="tabIndicatorColor">@android:color/white</color>
+    <!-- Tab Selected Text Color -->
+    <color name="tabSelectedTextColor">@android:color/white</color>
+    <!-- Tab Background Color -->
+    <color name="tabLayoutBackgroundColor">#2C2163</color>
+
+
+    <!-- Colors for Activities -->
+    <!-- ******************** -->
+
+    <color name="activity_text_color">#ffffff</color>
+
+    <!-- Colors for Categories -->
+    <!-- ******************** -->
+    <!-- Background color for the numbers category -->
+    <color name="category_cityPlaces">#FD8E09</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_museums">#4C6aC3</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_monuments">#64A938</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_stamina">#98f407</color>
+</resources>

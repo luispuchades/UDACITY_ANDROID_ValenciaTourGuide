@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Valencia Tour Guide</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Strings for Fragments -->
+    <!-- ********************* -->
+
+    <!-- Strings for cityPlacesFragment -->
+    <string name="cityPlacesName1">Town Hall Square</string>
+    <string name="cityPlacesDescription1">Living Valencia city from the beginnig.</string>
+
+    <string name="cityPlacesName2">Queens Square</string>
+    <string name="cityPlacesDescription2">The meeting point for your first visit.</string>
+
+    <string name="cityPlacesName3">Central Market</string>
+    <string name="cityPlacesDescription3">Traditional food commerce in the downtown.</string>
+
+    <string name="cityPlacesName4">Turia Gardens</string>
+    <string name="cityPlacesDescription4">Your best approach to the city axis.</string>
+
+    <string name="cityPlacesName5">Malvarrosa Beach</string>
+    <string name="cityPlacesDescription5">Sun and see at the urban beach.</string>
+
+    <string name="cityPlacesName6">Gullivers Park</string>
+    <string name="cityPlacesDescription6">Family entertainment at the open air.</string>
+
+    <string name="cityPlacesName7">Real Gardens</string>
+    <string name="cityPlacesDescription7">The right place to find yourself.</string>
+
+    <string name="cityPlacesName8">Zoo BioParc</string>
+    <string name="cityPlacesDescription8">Wildlife in the freedom of Valencia.</string>
+
+    <string name="cityPlacesName9">Colon Market</string>
+    <string name="cityPlacesDescription9">Neoclassicism from the 19th century.</string>
+
+    <string name="cityPlacesName10">Monforte Gardens</string>
+    <string name="cityPlacesDescription10">Architectonic gardens full of enchantment.</string>
+
+    <!-- Strings for MuseumFragment -->
+    <string name="museumName1">Science Museum</string>
+    <string name="museumDescription1">Technoligy in evolution</string>
+
+    <string name="museumName2">Arts Museum</string>
+    <string name="museumDescription2">History and culture at your hand.</string>
+
+    <string name="museumName3">Fallas Museum</string>
+    <string name="museumDescription3">Fire monuments tradition and culture</string>
+
+    <string name="museumName4">Prehistorical Museum</string>
+    <string name="museumDescription4">The very best origin of history</string>
+
+    <string name="museumName5">Etnological Museum</string>
+    <string name="museumDescription5">Wine culture and history</string>
+
+    <string name="museumName6">Modernity Museum</string>
+    <string name="museumDescription6">Culture evolution from the recent past.</string>
+
+    <string name="museumName7">Ceramics Museum</string>
+    <string name="museumDescription7">Culture and tools.</string>
+
+
+    <!-- Strings for MonumentFragment -->
+    <string name="monumentsName1">Torres de Serrano</string>
+    <string name="monumentsDescription1">History and culture at your hand.</string>
+
+    <string name="monumentsName2">El Miquelete</string>
+    <string name="monumentsDescription2">The meeting point for your first visit.</string>
+
+    <string name="monumentsName3">Torres de Quart</string>
+    <string name="monumentsDescription3">Traditional food commerce in the downtown.</string>
+
+    <string name="monumentsName4">Cathedral</string>
+    <string name="monumentsDescription4">Your best approach to the city axis.</string>
+
+    <string name="monumentsName5">Madonna Basilic</string>
+    <string name="monumentsDescription5">Sun and see at the urban beach.</string>
+
+    <string name="monumentsName6">Govern Palace</string>
+    <string name="monumentsDescription6">Family entertainment at the open air.</string>
+
+    <string name="monumentsName7">Saint Catalina Church</string>
+    <string name="monumentsDescription7">The right place to find yourself.</string>
+
+
+    <!-- Strings for StaminaFragment -->
+    <string name="staminaName1">La Marcelina</string>
+    <string name="staminaDescription1">Specialist in Valencian Paella</string>
+
+    <string name="staminaName2">Bodega La Pascuala</string>
+    <string name="staminaDescription2">Tradition in Valencia</string>
+
+    <string name="staminaName3">Rias Gallegas</string>
+    <string name="staminaDescription3">Fresh seefood.</string>
+
+    <string name="staminaName4">La Pepica</string>
+    <string name="staminaDescription4">Valencian paella all around.</string>
+
+    <string name="staminaName5">Pan de Azúcar</string>
+    <string name="staminaDescription5">Delicatessen from the Chef.</string>
+
+    <string name="staminaName6">Restaurante Tokio</string>
+    <string name="staminaDescription6">Asian experience at the Mediterranean.</string>
+
+    <string name="staminaName7">Bar Pilar</string>
+    <string name="staminaDescription7">Your brunch in the valencian style.</string>
+
+    <string name="staminaName8">Restaurante Xingú</string>
+    <string name="staminaDescription8">Brasialian style in your meat.</string>
+
+    <string name="staminaName9">Casa Mundo</string>
+    <string name="staminaDescription9">The Sandwich house. Enjoy their specialties.</string>
+
+    <string name="staminaName10">Los Toneles</string>
+    <string name="staminaDescription10">Tapas Bar.</string>
+
+</resources>
