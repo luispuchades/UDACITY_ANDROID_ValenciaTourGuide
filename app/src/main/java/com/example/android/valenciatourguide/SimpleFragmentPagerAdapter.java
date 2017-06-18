@@ -1,5 +1,6 @@
 package com.example.android.valenciatourguide;
 
+import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
@@ -10,17 +11,17 @@ import android.support.v4.app.FragmentPagerAdapter;
 
 public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
-    public SimpleFragmentPagerAdapter (FragmentManager fm) {
+    //Context of the app
+    private Context mContext;
+
+    public SimpleFragmentPagerAdapter (Context context, FragmentManager fm) {
         super(fm);
+        mContext = context;
     }
 
     // Definition of constat for total number of pages
     final int PAGE_COUNT = 4;
 
-    // Definition of Tab Tittles
-    private String tabTitles[] = new String[] {
-            "City Places", "Museums", "Monuments", "Stamina"
-    };
 
     public int getCount() {
         return PAGE_COUNT;
@@ -28,19 +29,33 @@ public class SimpleFragmentPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        if (position == 0) {
-            return new cityPlacesFragment();
-        } else if (position == 1) {
-            return new MuseumFragment();
-        } else if (position == 2) {
-            return new MonumentsFragment();
-        } else {
-            return new StaminaFragment();
+        switch (position) {
+            case 0:
+                return new cityPlacesFragment();
+            case 1:
+                return new MuseumFragment();
+            case 2:
+                return new MonumentsFragment();
+            case 3:
+                return new StaminaFragment();
+            default:
+                return new cityPlacesFragment();
         }
     }
 
     public CharSequence getPageTitle(int position) {
         // Generate title based on item position
-        return tabTitles[position];
+        switch (position) {
+            case 0:
+                return mContext.getString(R.string.cityPlacesTab);
+            case 1:
+                return mContext.getString(R.string.museumsTab);
+            case 2:
+                return mContext.getString(R.string.monumentsTab);
+            case 3:
+                return mContext.getString(R.string.staminaTab);
+            default:
+                return mContext.getString(R.string.defaultTab);
+        }
     }
 }

@@ -4,4 +4,5 @@
     <!-- List Item Height -->
     <dimen name="list_item_height">88dp</dimen>
     <dimen name="text_size_tab">10sp</dimen>
+    <dimen name="default_padding">8dp</dimen>
 </resources>
